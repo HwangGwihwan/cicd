@@ -16,11 +16,11 @@ public class HelloController {
 		log.info("get request");
 		bar();
 		
-		return "HelloWorld #3";
+		return "HelloWorld #4";
 	}
 	
 	public void bar() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		log.info("end bar method");
 	}
 }
