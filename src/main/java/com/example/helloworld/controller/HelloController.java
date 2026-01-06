@@ -16,7 +16,7 @@ public class HelloController {
 		log.info("get request");
 		bar();
 		
-		return "HelloWorld #18";
+		return "HelloWorld #19";
 	}
 	
 	public void bar() throws InterruptedException {
